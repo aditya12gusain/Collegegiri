@@ -82,7 +82,7 @@ export const productData = [
     img: product4,
     alt: "Rahul Joshi",
     name: "Rahul Joshi",
-    desc: "B.Tech.(CSE), GGSIPU | Front-End Web Development",
+    desc: "B.Tech.(CSE), GGSIPU | Front-End Web Developer",
     price: "$19.99",
     button: "Connect",
     url: "https://www.linkedin.com/in/rahul-joshi-997b93200/",
