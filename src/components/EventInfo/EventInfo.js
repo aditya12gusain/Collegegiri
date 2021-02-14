@@ -16,12 +16,14 @@ const EventInfo = ({ heading }) => {
       <ProductWrapper>
         <AboutTheEvent>
           <h1>
-            <FaCalendarWeek /> 5-6 December 2020
+            <FaCalendarWeek /> 18 February 2021
           </h1>
           <br />
           <h2>
-            <FaClock /> 6:00 pm
+            <FaClock /> 7 pm - 8:30 pm
           </h2>
+          <br />
+          <h3>Open Panel</h3>
           <br />
           <h3>
             <FaMapMarkedAlt /> Google Meet

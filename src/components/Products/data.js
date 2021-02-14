@@ -8,6 +8,8 @@ import product7 from "../../images/Himanshu.PNG";
 import product8 from "../../images/Srishti.jpg";
 import product9 from "../../images/Esha_Goel.jpg";
 import product10 from "../../images/Parichit_Bhasin.jpg";
+import product11 from "../../images/saumya.jpg";
+import product12 from "../../images/ayushi.jpg";
 import sweet1 from "../../images/sweet3.jpg";
 import sweet2 from "../../images/sweet-2.jpg";
 import sweet3 from "../../images/sweet-3.jpg";
@@ -26,7 +28,7 @@ export const productData = [
     img: product2,
     alt: "Aditya Gusain",
     name: "Aditya Gusain",
-    desc: "B.Tech.(CSE), GGSIPU | Web Developer (CO-HOST) ",
+    desc: "B.Tech.(CSE), GGSIPU | Web Developer (CTO) ",
     price: "$16.99",
     button: `Connect`,
     url: "http://www.linkedin.com/in/adityagusain",
@@ -69,15 +71,15 @@ export const productData = [
     button: "Connect",
     url: "https://www.linkedin.com/in/parichit-bhasin-516625192/",
   },
-  {
-    img: product6,
-    alt: "Saksham Kapoor",
-    name: "Saksham Kapoor",
-    desc: "B.Tech.(CSE), NSUT | Web and Software Developer | Freelancer",
-    price: "$14.99",
-    button: "Connect",
-    url: "https://www.linkedin.com/in/saksham-kapoor/",
-  },
+  // {
+  //   img: product6,
+  //   alt: "Saksham Kapoor",
+  //   name: "Saksham Kapoor",
+  //   desc: "B.Tech.(CSE), NSUT | Web and Software Developer | Freelancer",
+  //   price: "$14.99",
+  //   button: "Connect",
+  //   url: "https://www.linkedin.com/in/saksham-kapoor/",
+  // },
   {
     img: product4,
     alt: "Rahul Joshi",
@@ -87,15 +89,15 @@ export const productData = [
     button: "Connect",
     url: "https://www.linkedin.com/in/rahul-joshi-997b93200/",
   },
-  {
-    img: product9,
-    alt: "Esha Goel",
-    name: "Esha Goel",
-    desc: "B.Tech.(COE) | NSUT | Competitive Programming ",
-    price: "$14.99",
-    button: "Connect",
-    url: "https://www.linkedin.com/in/esha-goel",
-  },
+  // {
+  //   img: product9,
+  //   alt: "Esha Goel",
+  //   name: "Esha Goel",
+  //   desc: "B.Tech.(COE) | NSUT | Competitive Programming ",
+  //   price: "$14.99",
+  //   button: "Connect",
+  //   url: "https://www.linkedin.com/in/esha-goel",
+  // },
   {
     img: product7,
     alt: "Himanshu",
@@ -104,6 +106,24 @@ export const productData = [
     price: "$14.99",
     button: "Connect",
     url: "https://www.linkedin.com/in/himanshu-jaidka-b39b191a4/",
+  },
+  {
+    img: product11,
+    alt: "Saumya",
+    name: "Saumya",
+    desc: "B.Tech.(CSE) GGSIPU | Content Curator",
+    price: "$14.99",
+    button: "Connect",
+    url: "https://www.linkedin.com/in/saumyakushwah/",
+  },
+  {
+    img: product12,
+    alt: "Saumya",
+    name: "Saumya",
+    desc: "B.Tech.(CSE) GGSIPU | Graphic Designer | Social Media Marketing",
+    price: "$14.99",
+    button: "Connect",
+    url: "https://www.linkedin.com/in/saumyakushwah/",
   },
 ];
 

@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import EventInfo from "./components/EventInfo/EventInfo";
 import "./scrollTrigger.js";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
+import { render } from "@testing-library/react";
 
 function App() {
   const { scrollYProgress } = useViewportScroll();
@@ -18,7 +19,7 @@ function App() {
   return (
     <Router>
       <GlobalStyle />
-      <section className="section">
+      <section className="section" id="top">
         <Hero />
       </section>
       <section className="section">
@@ -31,7 +32,10 @@ function App() {
         <Feature />
       </section>
       <section>
-        <Products heading="Meet Your Seniors" data={productData} />
+        <Products
+          heading="Meet Collegegiri Core Team And People Related"
+          data={productData}
+        />
       </section>
       <section>
         <EventInfo heading="Event Details" data={productDataTwo} />
@@ -43,6 +47,9 @@ function App() {
           style={{
             scale,
             position: "relative",
+          }}
+          onClick={() => {
+            document.location = "#top";
           }}
         >
           <img src="../arrow-up.svg" alt="" />
