@@ -49,7 +49,7 @@ export const productData = [
     desc: "B.Tech.(CSE) GGSIPU | Graphic Designer | Social Media Marketing",
     price: "$14.99",
     button: "Connect",
-    url: "https://www.linkedin.com/in/saumyakushwah/",
+    url: "https://www.linkedin.com/in/ayushi-tiwari-0375b6195/",
   },
   {
     img: product11,
