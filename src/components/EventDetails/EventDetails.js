@@ -11,8 +11,8 @@ const EventDetails = ({ heading }) => {
     <ProductsContainer id="eventDetails">
       <ProductsHeading>{heading}</ProductsHeading>
       <ProductWrapper>
-        <AboutTheEvent>
-          College Starter Pack by Collegegiri is an initiative to help the
+        <AboutTheEvent className="parallax">
+          <p className="parallax-y">Collegegiri</p> is an initiative to help the
           freshers to figure out their college life. Many students are missing
           out on the introductory college interactions and have to begin this
           new chapter online. The first year of college builds up a foundation
@@ -21,7 +21,7 @@ const EventDetails = ({ heading }) => {
           and universities to come and share their first-year experiences and
           the mistakes they made. It is a fun interactive session to give the
           freshers a kick-start for college. Join us to learn, interact, and
-          share. Feel free to join as a high-school student; we are open to all.
+          share. Feel free to join as a high-school student, we are open to all.
         </AboutTheEvent>
       </ProductWrapper>
     </ProductsContainer>

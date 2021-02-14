@@ -23,9 +23,9 @@ const Hero = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <HeroContent>
         <HeroItems>
-          <HeroH1>College Starters Pack</HeroH1>
-          <HeroP>A Two Day Session for College Freshers</HeroP>
-          <HeroBtn target="_blank" href="https://forms.gle/j2Uk9YtcBUXxHa8w9">
+          <HeroH1>Kickstart College</HeroH1>
+          <HeroP>Sweep away all your college related doubts</HeroP>
+          <HeroBtn target="_blank" href="https://forms.gle/a5jyR1XQAzHFtYnK6">
             Register Now
           </HeroBtn>
           <br />

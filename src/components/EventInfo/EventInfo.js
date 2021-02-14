@@ -29,7 +29,7 @@ const EventInfo = ({ heading }) => {
           <br />
           <ProductButton
             target="_blank"
-            href="https://forms.gle/j2Uk9YtcBUXxHa8w9"
+            href="https://forms.gle/a5jyR1XQAzHFtYnK6"
           >
             Register Now
           </ProductButton>

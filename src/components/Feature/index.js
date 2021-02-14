@@ -8,7 +8,7 @@ const Feature = () => {
       <p>
         Meet your <b>Seniors</b>
       </p>
-      <FeatureButton target="_blank" href="https://forms.gle/j2Uk9YtcBUXxHa8w9">
+      <FeatureButton target="_blank" href="https://forms.gle/a5jyR1XQAzHFtYnK6">
         Register Now
       </FeatureButton>
     </FeatureContainer>
